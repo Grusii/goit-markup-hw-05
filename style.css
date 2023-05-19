@@ -1,0 +1,136 @@
+:root {
+  --header-color: #212121;
+  --text-color: #757575;
+  --first-title-color: #ffffff;
+  --second-title-color: #212121;
+  --atribute-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--atribute-color);
+}
+
+.header-logo {
+  color: #000000;
+}
+
+.header-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color:var(--header-color);
+  text-decoration: none;
+}
+
+.header-item:hover, .header-item:focus {
+    color:var(--atribute-color);
+}
+
+.header-adress{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: color: var(--text-color);
+}
+
+.header-adress:hover, .header-adress:focus{
+    color: var(--atribute-color);
+}
+.hero{
+    background-color: #2F303A;
+}
+.hero-title {
+    font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--first-title-color);
+}
+.hero-btn {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: var(--atribute-color);
+}
+.section{
+    background: #F5F5F5;
+}
+h3{
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--second-title-color);
+}
+.section-about-text {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71px;
+letter-spacing: 0.03em;
+color: var(--text-color);
+}
+.workers{
+    background: #F5F4FA;
+}
+h2{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--second-title-color);
+}
+.workers-member-spec{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: var(--text-color);
+}
+.footer{    
+background-color:#2F303A;
+}
+.footer-logo {
+  color: #000000;
+}
+.footer-map{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.footer-link{
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
