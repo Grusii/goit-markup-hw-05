@@ -82,6 +82,10 @@ body {
   color: #ffffff;
   background-color: var(--atribute-color);
 }
+.hero-btn:active {
+  background-color: #188ce8;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
 /*------------SECTION-------------*/
 .workers-title {
   font-weight: 700;
@@ -139,6 +143,7 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+/*------------SECOND-PAGE(SECTION)-------------*/
 .projects-list-button {
   font-weight: 500;
   font-size: 16px;
