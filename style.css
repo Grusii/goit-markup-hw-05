@@ -91,7 +91,6 @@ h2 {
   letter-spacing: 0.03em;
 }
 .section-about-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
@@ -108,7 +107,6 @@ h2 {
   color: var(--second-title-color);
 }
 .workers-member-spec {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -121,14 +119,12 @@ h2 {
   color: #000000;
 }
 .footer-map {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 .footer-link {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -158,9 +154,6 @@ h2 {
   color: var(--second-title-color);
 }
 .main-items-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
