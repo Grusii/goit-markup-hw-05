@@ -26,7 +26,9 @@ body {
   font-family: "Roboto", sans-sefrif;
   background-color: #ffffff;
 }
-
+img {
+  display: block;
+}
 .list {
   list-style: none;
 }
@@ -47,7 +49,7 @@ body {
   align-items: center;
 }
 .header {
-  padding: 24px;
+  padding: 24px 0 25px 0;
 }
 .logo-header {
   font-family: "Raleway";
@@ -149,7 +151,7 @@ body {
 .benefits-about {
   display: flex;
 }
-.benefits-about-item:last-child{
+.benefits-about-item:last-child {
   margin: 0;
 }
 .benefits-about-title {
@@ -158,7 +160,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  
+
   max-width: 270px;
   margin-bottom: 10px;
 }
@@ -176,10 +178,10 @@ body {
 .specialization {
   margin-bottom: 94px;
 }
-.specialization-list{
+.specialization-list {
   display: flex;
 }
-.specialization-list-photo{
+.specialization-list-photo {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
 }
@@ -197,10 +199,10 @@ body {
   background: #f5f4fa;
   padding: 94px 0;
 }
-.workers-list{
+.workers-list {
   display: flex;
 }
-.workers-member{
+.workers-member {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
   text-align: center;
@@ -216,11 +218,10 @@ body {
 }
 .workers-member-title {
   font-weight: 500;
-font-size: 16px;
-line-height: 1.18
-text-align: center;
-letter-spacing: 0.03em;
-
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
   margin-bottom: 10px;
 }
 .workers-member-spec {
@@ -229,11 +230,21 @@ letter-spacing: 0.03em;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
+
 /*------------FOOTER-------------*/
 .footer {
   background-color: #2f303a;
 
   padding: 60px;
+}
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.logo-container {
+  margin-bottom: 20px;
+}
+.footer-item .footer-adress {
+  margin-bottom: 20px;
 }
 .footer-logo {
   font-family: "Raleway";
@@ -242,8 +253,6 @@ letter-spacing: 0.03em;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--atribute-color);
-
-  margin-bottom: 20px;
 }
 .footer-logo-atribute {
   color: #ffffff;
@@ -272,24 +281,27 @@ letter-spacing: 0.03em;
   color: var(--atribute-color);
 }
 /*------------SECOND-PAGE(SECTION)-------------*/
-.header-portfolio{
+.header-portfolio {
   margin-bottom: 94px;
+  padding: 24px 0 25px 0;
 }
 .header-portfolio .container {
   display: flex;
   align-items: center;
 }
-.header-portfolio {
-  padding: 24px;}
 .projects {
   margin-bottom: 94px;
 }
-.projects-list{
+.photo-discribtion {
+  border: #eeeeee solid 1px;
+  padding: 20px 24px;
+}
+.projects-list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
-.project-list-item:not(:last-child){
+.project-list-item:not(:last-child) {
   margin-right: 8px;
 }
 .projects-list-button {
@@ -308,16 +320,16 @@ letter-spacing: 0.03em;
   color: #ffffff;
   background: var(--atribute-color);
 }
-.projects-items{
+.projects-items {
   display: flex;
   flex-wrap: wrap;
 }
-.projects-items-item{
+.projects-items-item {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
 }
-.projects-items-item:nth-child(3n){
+.projects-items-item:nth-child(3n) {
   margin-right: 0;
 }
 .projects-items-title {
