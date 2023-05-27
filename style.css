@@ -283,6 +283,7 @@ img {
 .header-portfolio {
   margin-bottom: 94px;
   padding: 24px 0 25px 0;
+  border-bottom: #ececec solid 1px;
 }
 .header-portfolio .container {
   display: flex;
