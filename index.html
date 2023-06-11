@@ -26,7 +26,9 @@
         <nav class="header-nav">
           <ul class="header-nav-list list">
             <li class="header-item">
-              <a href="./index.html" class="header-link">Студія</a>
+              <div class="header-adress-wrap">
+                <a href="./index.html" class="header-link current">Студія</a>
+              </div>
             </li>
             <li class="header-item">
               <a href="./portfolio.html" class="header-link">Портфоліо</a>
@@ -58,7 +60,9 @@
           <div class="title-container">
             <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           </div>
-          <button type="button" class="hero-btn">Замовити послугу</button>
+          <button type="button" class="hero-btn" data-modal-open>
+            Замовити послугу
+          </button>
         </div>
       </section>
       <section class="benefits">
@@ -118,29 +122,41 @@
         <div class="container">
           <h2 class="specialization-title">Чим ми займаємося</h2>
           <ul class="specialization-list list">
-            <li class="specialization-list-photo">
+            <li class="specialization-list-item">
               <img
                 src="./images/company-specialization-1.jpg"
                 alt="Руки пишуть перед планшетом"
                 width="370"
                 height="294"
+                class="specialization-list-img"
               />
+              <div class="specialization-cover-box">
+                <p class="specialization-cover-text">Десктопні додатки</p>
+              </div>
             </li>
-            <li class="specialization-list-photo">
+            <li class="specialization-list-item">
               <img
                 src="./images/company-specialization-2.jpg"
                 alt="Дивиться в телефон перед компьтерем"
                 width="370"
                 height="294"
+                class="specialization-list-img"
               />
+              <div class="specialization-cover-box">
+                <p class="specialization-cover-text">Мобільні додатки</p>
+              </div>
             </li>
-            <li class="specialization-list-photo">
+            <li class="specialization-list-item">
               <img
                 src="./images/company-specialization-3.jpg"
                 alt="Кольорова палітра на планшеті"
                 width="370"
                 height="294"
+                class="specialization-list-img"
               />
+              <div class="specialization-cover-box">
+                <p class="specialization-cover-text">Дизайнерські рішення</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -399,7 +415,7 @@
               <li class="footer-soc-item">
                 <a class="footer-soc-link" href=""
                   ><svg class="footer-soc-icon" width="20" height="20">
-                    <use href="./images/icons.svg#icicons"></use></svg
+                    <use href="./images/icons.svg#icon-linkedin"></use></svg
                 ></a>
               </li>
             </ul>
@@ -407,5 +423,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <a href="" class="modal-close modal-link" data-modal-close>
+          <svg class="modal-icon" width="18" height="18">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
